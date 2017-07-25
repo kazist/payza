@@ -1,0 +1,19 @@
+{
+    "name": "kazist/payza",
+    "description": "Kazist payza Manager.",
+    "keywords": ["kazist", "payza manager"],
+    "homepage": "https://github.com/kazist/payza",
+    "license": "LGPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dedan Irungu",
+            "email": "info@emshyinnovate.com",
+            "homepage": "http://emshyinnovate.com",
+            "role": "Founder & Developer"
+        }
+    ],
+    "require": {
+        "kazist/payments": "@stable"
+    }
+}
