@@ -1,0 +1,23 @@
+
+[{
+        "_table_name": "payments_gateways",
+        "tracking_id": "14",
+        "short_name": "payza",
+        "long_name": "Payza",
+        "input_label": "Payza",
+        "can_withdraw": "1",
+        "can_payment": "1",
+        "can_transfer": "0",
+        "payment_instruction": "To complete your Payment click the Payza button below and make a payment of {{ payment.amount }} USD. <br> {{ payment_form }}",
+        "transfer_instruction": "",
+        "withdraw_instruction": "",
+        "withdraw_file_prefix": "name,amount,email",
+        "withdraw_file_structure": " {{user.name}},{{withdraw.amount}},{{subscription.withdraw_id}}",
+        "withdraw_file_suffix": "",
+        "file_type": "csv",
+        "file_limit": "2000",
+        "url": "https://secure.payza.com/checkout",
+        "published": "1"
+    }]
+
+

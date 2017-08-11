@@ -1,0 +1,18 @@
+
+<input type="hidden" name="ap_itemname" value="{{ payment.description }}">
+<input type="hidden" name="ap_currency" value="{{ gateway.currency }}">
+<input type="hidden" name="ap_returnurl" value="{{ generate_url('payza.payments.return', {'payment_idd' : payment.id}) }}">
+<input type="hidden" name="ap_cancelurl" value="{{ generate_url('payza.payments.cancel') }}?">
+<input type="hidden" name="apc_1" value="{{ payment.id }}">
+<input type="hidden" name="apc_2" value="{{ user.id }}">
+<input type="hidden" name="ap_description" value="{{ payment.description }}">
+<input type="hidden" name="ap_amount" value="{{ gateway.total_amount }}">
+<input type="hidden" name="ap_itemcode" value="{{ payment.id }}">
+
+<center>
+    <a class="process-payment"  href="#" title="Pay with Payza">
+        <button type="submit">
+            <input type="image" src="https://www.payza.com/images/payza-buy-now.png" border="0" alt="Submit" />
+        </button>
+    </a>
+</center>
