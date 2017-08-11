@@ -16,6 +16,7 @@
         "withdraw_file_suffix": "",
         "file_type": "csv",
         "file_limit": "2000",
+        "form_path": "Payza/Payments/Code/gateways",
         "url": "https://secure.payza.com/checkout",
         "published": "1"
     }]
