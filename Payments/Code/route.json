@@ -1,10 +1,10 @@
 {
     "frontend": [{
-            "title": "Payza Return",
-            "description": "Payza Return.",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\PayzaController::returnAction",
-            "unique_name": "finance.payments.payza.return",
-            "route": "finance/payments/payza/return",
+            "title": "Payza Payments Return",
+            "description": "Payza Payments Return.",
+            "controller": "Payza\\Payments\\Code\\Controllers\\PayzaController::returnAction",
+            "unique_name": "payza.payments.return",
+            "route": "payza/payments/return",
             "permissions": "can_view, can_viewown",
             "arguments": "",
             "keywords": "payza, return",
@@ -13,11 +13,11 @@
             "login_required": 0
 
         }, {
-            "title": "Payza Detail Cancelled",
-            "description": "Payza Cancelled",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\PayzaController::cancelAction",
-            "unique_name": "finance.payments.payza.cancel",
-            "route": "finance/payments/payza/cancel",
+            "title": "Payza Payments Detail Cancelled",
+            "description": "Payza Payments Cancelled",
+            "controller": "Payza\\Payments\\Code\\Controllers\\PayzaController::cancelAction",
+            "unique_name": "payza.payments.cancel",
+            "route": "payza/payments/cancel",
             "permissions": "can_view, can_viewown",
             "arguments": {
                 "id": null
@@ -27,11 +27,11 @@
             "changefreq": "weekly",
             "login_required": 0
         }, {
-            "title": "Payza Notify",
-            "description": "Payza Notify",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\PayzaController::notifyAction",
-            "unique_name": "finance.payments.payza.notify",
-            "route": "finance/payments/payza/notify",
+            "title": "Payza Payments Notify",
+            "description": "Payza Payments Notify",
+            "controller": "Payza\\Payments\\Code\\Controllers\\PayzaController::notifyAction",
+            "unique_name": "payza.payments.notify",
+            "route": "payza/payments/notify",
             "permissions": "can_view, can_viewown",
             "arguments": {
                 "id": null
@@ -44,9 +44,9 @@
     "backend": [{
             "title": "General Tasks",
             "description": "General Tasks.",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\Admin\\PayzaController::taskAction",
-            "unique_name": "admin.finance.payments.payza.task",
-            "route": "admin/finance/payments/payza/task",
+            "controller": "Payza\\Payments\\Code\\Controllers\\Admin\\PayzaController::taskAction",
+            "unique_name": "admin.payza.payments.task",
+            "route": "admin/payza/payments/task",
             "permissions": "can_add, can_write, can_writeown",
             "arguments": "",
             "keywords": "payza, task",
@@ -58,12 +58,12 @@
                 "ADMIN": ["can_add", "can_write", "can_writeown"]
             }
         }, {
-            "title": "Payza List",
-            "description": "Management of Payza.",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\Admin\\PayzaController::indexAction",
+            "title": "Payza Payments List",
+            "description": "Management of Payza Payments.",
+            "controller": "Payza\\Payments\\Code\\Controllers\\Admin\\PayzaController::indexAction",
             "permissions": "can_view, can_viewown",
-            "unique_name": "admin.finance.payments.payza",
-            "route": "admin/finance/payments/payza",
+            "unique_name": "admin.payza.payments",
+            "route": "admin/payza/payments",
             "arguments": "",
             "keywords": "payza, list",
             "priority": "0.5",
@@ -74,11 +74,11 @@
                 "ADMIN": ["can_view", "can_viewown"]
             }
         }, {
-            "title": "Payza Detail: {{ item.name }}",
-            "description": "Payza Detail: {{ item.name }}",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\Admin\\PayzaController::detailAction",
-            "unique_name": "admin.finance.payments.payza.detail",
-            "route": "admin/finance/payments/payza/detail/{id}",
+            "title": "Payza Payments Detail: {{ item.name }}",
+            "description": "Payza Payments Detail: {{ item.name }}",
+            "controller": "Payza\\Payments\\Code\\Controllers\\Admin\\PayzaController::detailAction",
+            "unique_name": "admin.payza.payments.detail",
+            "route": "admin/payza/payments/detail/{id}",
             "permissions": "can_view, can_viewown",
             "arguments": {
                 "id": null
@@ -92,11 +92,11 @@
                 "ADMIN": ["can_view", "can_viewown"]
             }
         }, {
-            "title": "Payza Delete: {{ item.name }}",
-            "description": "Payza Delete: {{ item.name }}",
-            "controller": "Payza\\Payments\\Payza\\Code\\Controllers\\Admin\\PayzaController::deleteAction",
-            "unique_name": "admin.finance.payments.payza.delete",
-            "route": "admin/finance/payments/payza/delete/{id}",
+            "title": "Payza Payments Delete: {{ item.name }}",
+            "description": "Payza Payments Delete: {{ item.name }}",
+            "controller": "Payza\\Payments\\Code\\Controllers\\Admin\\PayzaController::deleteAction",
+            "unique_name": "admin.payza.payments.delete",
+            "route": "admin/payza/payments/delete/{id}",
             "permissions": "can_delete, can_deleteown",
             "arguments": {
                 "id": null

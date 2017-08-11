@@ -1,17 +1,17 @@
 <?php
 
-namespace Payza\Payments\Payza\Code\Tables;
+namespace Payza\Payments\Code\Tables;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Payza
  *
- * @ORM\Table(name="finance_payments_payza", indexes={@ORM\Index(name="created_by_index", columns={"created_by"}), @ORM\Index(name="modified_by_index", columns={"modified_by"})})
+ * @ORM\Table(name="payza_payments", indexes={@ORM\Index(name="created_by_index", columns={"created_by"}), @ORM\Index(name="modified_by_index", columns={"modified_by"})})
  * @ORM\Entity
  * @ORM\HasLifecycleCallbacks
  */
-class Payza extends \Kazist\Table\BaseTable {
+class Payments extends \Kazist\Table\BaseTable {
 
     /**
      * @var integer

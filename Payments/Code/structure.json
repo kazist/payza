@@ -11,7 +11,7 @@
                                 "items": [
                                     {
                                         "group": {
-                                            "name": "Payza Detail",
+                                            "name": "Payza Payments Detail",
                                             "unique_name": "payza_detail",
                                             "has_title": 1,
                                             "user_right": null,
@@ -1002,7 +1002,7 @@
         }
     ],
     "primarykey": "id",
-    "table_name": "finance_payments_payza",
+    "table_name": "payza_payments",
     "table_alias": "fpp",
     "foreignkey": "",
     "renamedfields": "",
@@ -1019,9 +1019,9 @@
     "right_field": "",
     "query": {
         "from": {
-            "table": "Payza\\Payments\\Payza\\Code\\Tables\\Payza",
+            "table": "Payza\\Payments\\Code\\Tables\\Payza",
             "alias": "fpp",
-            "name": "#__finance_payments_payza"
+            "name": "#__payza_payments"
         },
         "select": [
             "fpp.id",

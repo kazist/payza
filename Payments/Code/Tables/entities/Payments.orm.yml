@@ -1,5 +1,5 @@
-Payza\Payments\Payza\Code\Tables\Payza:
-  table: finance_payments_payza
+Payza\Payments\Code\Tables\Payments:
+  table: payza_payments
   type: entity
   id:
     id:

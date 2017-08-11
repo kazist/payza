@@ -1,8 +1,8 @@
 {
-    "name": "payza",
-    "title": "Payza",
-    "explanation": "Payza",
-    "description": "Payza",
+    "name": "payments",
+    "title": "Payments",
+    "explanation": "Payments",
+    "description": "Payments",
     "version": 16,
     "has_view": "1",
     "tie_field": "0",

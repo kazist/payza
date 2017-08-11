@@ -13,13 +13,12 @@
  * @author sbc
  */
 
-namespace Payza\Payments\Payza\Code\Controllers;
+namespace Payza\Payments\Code\Controllers;
 
 defined('KAZIST') or exit('Not Kazist Framework');
 
-use Kazist\Controller\BaseController;
 use Payments\Payments\Code\Controllers\PaymentsController AS BasePaymentsController;
 
-class PayzaController extends BasePaymentsController {
+class PaymentsController extends BasePaymentsController {
     
 }
