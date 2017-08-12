@@ -1,0 +1,11 @@
+[{
+        "name": "payza_payments_ap_merchant",
+        "label": "Ap merchant",
+        "default": "",
+        "type": "text"
+    }, {
+        "name": "payza_payments_ap_purchasetype",
+        "label": "Ap purchasetype",
+        "default": "subscription",
+        "type": "text"
+    }]
