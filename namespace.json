@@ -1,0 +1,6 @@
+{
+    "PayzaPayments": {
+        "namespace": "Payza\\Payments",
+        "controller": "PaymentsController"
+    }
+}

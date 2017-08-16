@@ -20,6 +20,12 @@ use Payments\Payments\Code\Models\PaymentsModel AS BasePaymentsModel;
  */
 class PaymentsModel extends BasePaymentsModel {
 
+    public function appendSearchQuery($query) {
+
+        $this->ingore_search_query = true;
+        return parent:: appendSearchQuery($query);
+    }
+
     public function notificationTransaction($payment_id) {
 
         $posted_data = $this->getIpayPayza();

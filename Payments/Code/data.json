@@ -8,7 +8,7 @@
         "can_withdraw": "1",
         "can_payment": "1",
         "can_transfer": "0",
-        "payment_instruction": "To complete your Payment click the Payza button below and make a payment of {{ payment.amount }} USD. <br> {{ payment_form }}",
+        "payment_instruction": "To complete your Payment click the Payza button below and make a payment of <b>{{ gateway.total_amount }} USD</b>. <br> {{ payment_form }}",
         "transfer_instruction": "",
         "withdraw_instruction": "",
         "withdraw_file_prefix": "name,amount,email",

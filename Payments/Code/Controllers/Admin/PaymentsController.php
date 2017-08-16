@@ -8,7 +8,7 @@
  */
 
 /**
- * Description of PayzaController
+ * Description of PaymentsController
  *
  * @author sbc
  */
