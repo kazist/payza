@@ -1,0 +1,12 @@
+{
+    "name": "kazist\/paypal",
+    "title": "Paypal",
+    "icon": "assets\/images\/icon.png",
+    "extension": "component",
+    "path": "Paypal\/",
+    "description": "Paypal",
+    "version": 1,
+    "is_core": 0,
+    "system_tracking_id": 0,
+    "is_modified": 0
+}

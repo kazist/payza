@@ -1,0 +1,163 @@
+Payza\Payments\Code\Tables\Payments:
+  table: payza_payments
+  type: entity
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    ap_securitycode:
+      name: ap_securitycode
+      type: string
+      length: 255
+      nullable: true
+    ap_merchant:
+      name: ap_merchant
+      type: string
+      length: 255
+      nullable: true
+    ap_status:
+      name: ap_status
+      type: string
+      length: 255
+      nullable: true
+    ap_test:
+      name: ap_test
+      type: string
+      length: 255
+      nullable: true
+    ap_purchasetype:
+      name: ap_purchasetype
+      type: string
+      length: 255
+      nullable: true
+    ap_totalamount:
+      name: ap_totalamount
+      type: string
+      length: 255
+      nullable: true
+    ap_referencenumber:
+      name: ap_referencenumber
+      type: string
+      length: 255
+      nullable: true
+    ap_currency:
+      name: ap_currency
+      type: string
+      length: 255
+      nullable: true
+    ap_transactiondate:
+      name: ap_transactiondate
+      type: string
+      length: 255
+      nullable: true
+    ap_transactiontype:
+      name: ap_transactiontype
+      type: string
+      length: 255
+      nullable: true
+    ap_custfirstname:
+      name: ap_custfirstname
+      type: string
+      length: 255
+      nullable: true
+    ap_custlastname:
+      name: ap_custlastname
+      type: string
+      length: 255
+      nullable: true
+    ap_custaddress:
+      name: ap_custaddress
+      type: string
+      length: 255
+      nullable: true
+    ap_custcity:
+      name: ap_custcity
+      type: string
+      length: 255
+      nullable: true
+    ap_custstate:
+      name: ap_custstate
+      type: string
+      length: 255
+      nullable: true
+    ap_custcountry:
+      name: ap_custcountry
+      type: string
+      length: 255
+      nullable: true
+    ap_custzip:
+      name: ap_custzip
+      type: string
+      length: 255
+      nullable: true
+    ap_custemailaddress:
+      name: ap_custemailaddress
+      type: string
+      length: 255
+      nullable: true
+    ap_itemname:
+      name: ap_itemname
+      type: string
+      length: 255
+      nullable: true
+    ap_itemcode:
+      name: ap_itemcode
+      type: string
+      length: 255
+      nullable: true
+    ap_description:
+      name: ap_description
+      type: string
+      length: 255
+      nullable: true
+    ap_quantity:
+      name: ap_quantity
+      type: string
+      length: 255
+      nullable: true
+    ap_amount:
+      name: ap_amount
+      type: string
+      length: 255
+      nullable: true
+    ap_feeamount:
+      name: ap_feeamount
+      type: string
+      length: 255
+      nullable: true
+    ap_netamount:
+      name: ap_netamount
+      type: string
+      length: 255
+      nullable: false
+    created_by:
+      name: created_by
+      type: integer
+      length: 11
+      nullable: false
+    date_created:
+      name: date_created
+      type: datetime
+      nullable: false
+    modified_by:
+      name: modified_by
+      type: integer
+      length: 11
+      nullable: false
+    date_modified:
+      name: date_modified
+      type: datetime
+      nullable: false
+  indexes:
+    created_by_index:
+      columns: [created_by]
+    modified_by_index:
+      columns: [modified_by]
+  lifecycleCallbacks:
+    prePersist:
+      - onPrePersist
+      - onPrePersistCallbacks
+    preUpdate:
+      - onPreUpdate
+      - onPreUpdateCallbacks
