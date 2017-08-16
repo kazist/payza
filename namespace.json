@@ -1,6 +1,6 @@
 {
-    "PaypalPayments": {
-        "namespace": "Paypal\\Payments",
+    "PayzaPayments": {
+        "namespace": "Payza\\Payments",
         "controller": "PaymentsController"
     }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "kazist/paypal",
-    "description": "Kazist Paypal Manager.",
-    "keywords": ["kazist", "paypal manager"],
-    "homepage": "https://github.com/kazist/paypals",
+    "name": "kazist/payza",
+    "description": "Kazist Payza Manager.",
+    "keywords": ["kazist", "payza manager"],
+    "homepage": "https://github.com/kazist/payzas",
     "license": "LGPL-3.0",
     "version": "1.0.2",
     "authors": [
