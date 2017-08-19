@@ -1,0 +1,18 @@
+{
+    "title": "Payza",
+    "alias": "payza",
+    "groups": [{
+            "title": "Payza Setting",
+            "settings": [{
+                    "name": "payza_payments_ap_merchant",
+                    "label": "Ap merchant",
+                    "default": "",
+                    "type": "text"
+                }, {
+                    "name": "payza_payments_ap_purchasetype",
+                    "label": "Ap purchasetype",
+                    "default": "subscription",
+                    "type": "text"
+                }]
+        }]
+}

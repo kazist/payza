@@ -1,0 +1,7 @@
+[{
+        "name": "email",
+        "label": "Email",
+        "default": "",
+        "tooltip": "Enter Your Payza Email Addres.",
+        "type": "text"
+    }]
